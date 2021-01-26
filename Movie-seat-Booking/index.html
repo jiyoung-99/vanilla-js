@@ -9,7 +9,7 @@
 <body>
     <div class="movie-container">
         <label>Pick a movie:</label>
-        <select name="movie" id="movie">
+        <select id="movie">
             <option value="10">Avengers Endgame ($10)</option>
             <option value="12">Joker ($12)</option>
             <option value="8">Toy Story 4 ($8)</option>
@@ -96,7 +96,9 @@
         </div>
     </div>
     
-    <p class="text">You have selected <span class="count">0</span>Seats for a price of $ <span class="total">0</span>
+    <p class="text">
+        You have selected 
+        <span id="count">0</span>Seats for a price of $ <span id="total">0</span>
     </p>
 
     <script src='script.js'>

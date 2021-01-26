@@ -33,7 +33,7 @@ body {
 }
 
 .container {
-    perspective: 700px;
+    perspective: 1000px;
     margin-bottom: 10px;
 }
 
